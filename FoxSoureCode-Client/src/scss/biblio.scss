@@ -1,0 +1,177 @@
+@import "../colors";
+
+.GamBibli-page{
+    .bg-light {
+        background-color: #f8f9fa!important;
+    }
+    .mt-0 {
+        margin-top: 0!important;
+    }
+    .mb-3 {
+        margin-bottom: 1rem!important;
+    }
+    .p-4 {
+        padding: 1.5rem!important;
+    }
+    .textarea{
+        .container{
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 1086px;
+
+        .font-weight-light {
+            font-weight: 300!important;
+        }
+        .mb-1 {
+            margin-bottom: 0.25rem!important;
+        }
+        .p-15 {
+            padding-left: 0px;
+        }
+        .mb-1 {
+            margin-bottom: 0.25rem!important;
+        }
+        .title{
+            font-family: "Roboto Condensed", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;      
+            font-style: normal;
+            color: #222;
+            text-rendering: optimizeLegibility;
+            line-height: 1.4;
+            font-size: 2.93333em;
+            
+        }
+        .description{
+            font-family: "Roboto Condensed", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;     
+            font-style: normal;
+            color: #222;
+            text-rendering: optimizeLegibility;
+            font-size: 1em;
+            margin-top: 3px;
+            line-height: 23px;
+        }
+        }
+    }
+    .container{
+        .form-inline {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+            -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+        }
+        form {
+            margin: 0 0 1em;
+        }
+        .input-form{
+            transition: box-shadow 0.45s, border-color 0.45s ease-in-out;
+            font-size: 1em;
+            margin: 0 0 1em 0;
+            padding: 0.5em;
+            height: 34px;
+            box-shadow: none;
+            color: #724770;
+            border-radius: 0;
+            background-color: #fff;
+            font-family: inherit;
+            border: 1px solid #ccc;
+        }
+        .input-group-append {
+            margin-left: -5px;
+        }
+        .input-group {
+            display: flex;
+            flex-wrap: wrap;
+            -webkit-box-align: stretch;
+            align-items: stretch;
+        }
+        
+        
+    }
+    .list-group-item.active {
+        z-index: 2;
+        color: #fff;
+        background-color: $primary !important;
+        border-color: $primary !important;
+    }
+    .menu-item{
+        .card-header:first-child {
+            border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+        }
+        .card-header {
+            padding: 0.75rem 1.25rem;
+            margin-bottom: 0;
+            background-color: rgba(0,0,0,.03);
+            border-bottom: 1px solid rgba(0,0,0,.125);
+        }
+        .bg-light {
+            background-color: #f8f9fa!important;
+        }
+        .list-group-item-action {
+            width: 100%;
+            color: #495057 !important;
+            text-align: inherit;
+        }
+        
+        .list-group-item {
+            position: relative;
+            display: block;
+            padding: 0.75rem 1.25rem;
+            margin-bottom: -1px;
+            background-color: #fff;
+            border: 1px solid rgba(0,0,0,.125);
+        }
+        .list-group-item:first-child {
+            border-top-left-radius: 0rem;
+            border-top-right-radius: 0rem;
+        }
+        .card-header+.list-group .list-group-item:first-child {
+            border-top: 0;
+        }
+        .font-weight-bold {
+            font-weight: 700!important;
+        }
+        .ml-2{
+            margin-left: 0.5rem!important;
+        }
+        .card {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            min-width: 0;
+            word-wrap: break-word;
+            background-color: #fff;
+            background-clip: border-box;
+            border: 1px solid rgba(0, 0, 0, 0.125);
+            border-radius: 0.25rem;
+            font-family: "Roboto Condensed","Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+        }
+    }
+    .galerie{
+        .row{
+            .card{
+                .card-body{
+                    .card-title{
+                        color: #565656;
+                        font-size: 17px;
+                        margin-bottom: 0px !important;
+                        width: 100%;
+                        white-space: nowrap;
+                    }
+                }
+            }
+        }
+    }
+    a {
+        width: 100%;
+        color: #495057 !important;
+        text-align: inherit;
+    }
+}

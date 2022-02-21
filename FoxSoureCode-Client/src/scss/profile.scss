@@ -1,0 +1,80 @@
+.profile {
+    .author-info-row {
+        min-height: 132px;
+    }
+    .author-info-row .first-col {
+        float: left;
+        width: 55%;
+    }
+    .author-info-row .second-col {
+        position: relative;
+        min-height: 1px;
+        padding-left: 23px;
+        padding-right: 23px;
+    }
+    .author-info-row .second-col {
+        width: 40%;
+        float: right;
+    }
+
+    .second-col {
+        margin-top: 12px;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .first-col img {
+        float: left;
+        border-radius: 69%;
+        height: 120px;
+        overflow: hidden;
+    }
+
+    .author-title {
+        margin-left: 30px;
+    }
+
+    .author-title {
+        margin-left: 30px;
+    }
+
+    .author-title {
+        float: left;
+    }
+    .author-meta-row {
+        margin-top: 12px;
+    }
+
+    .relativel {
+        position: relative;
+    }
+    .card-title.mb-3 {
+        font-size: 17px;
+        margin-bottom: 0px !important;
+        width: 100%;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+    .card-title.mb-3 {
+        font-size: 20px;
+        margin-bottom: 0px !important;
+    }
+    .buttonprice {
+        position: absolute;
+        float: left !important;
+        top: 13px;
+        width: 61px;
+        border-radius: 0;
+        background: #FE5B18;
+        border: none;
+        font-size: 17px;
+        border-top-right-radius: 0.3rem;
+        border-bottom-right-radius: 0.3rem;
+    }
+    .card-img-top {
+        width: 100%;
+        border-top-left-radius: calc(0.25rem - 1px);
+        border-top-right-radius: calc(0.25rem - 1px);
+    }
+}

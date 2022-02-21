@@ -1,0 +1,31 @@
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import 'bootstrap/scss/functions.scss';
+// 3. Include remainder of required Bootstrap stylesheets
+$theme-colors: (
+  'primary': #FE5B18,
+  'secondary': #565656,
+  'lightG': #e8e8e8,
+  'success': #28a745,
+  'dark' : #343a40,
+  'muted' : #bbbbbb,
+);
+@import 'bootstrap/scss/variables';
+@import 'bootstrap/scss/mixins';
+
+// 2. Include any default variable overrides here
+// change the theme
+$theme-colors: (
+  'primary': #FE5B18,
+  'secondary': #565656,
+  'success': #28a745,
+  'dark' : #343a40,
+  'info': $info,
+  'warning': $warning,
+  'danger': $danger,
+  'light': $light,
+  'muted' : #bbbbbb,
+
+);
+
+// Import Bootstrap and its default variables
+@import 'bootstrap/scss/bootstrap';

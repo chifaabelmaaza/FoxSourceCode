@@ -1,0 +1,118 @@
+@import "../colors";
+
+.home-page{
+    .hp-hero{
+        margin: 0 !important;
+        padding-top: 27px !important;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-color: $primary;
+        
+
+    }
+
+    .content{
+        .title{
+            color: rgb(0, 0, 0);
+            font-size:50px;
+            width: 800px;
+            font-weight: bold;
+            padding-top: 30px;
+            font-family: 'Roboto Condensed', 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif 
+        }
+        .searchBar{
+            width: 430px;
+            height: 48px;
+            font-family: inherit;
+            margin: 0 0 1em 0;
+        }
+        .img-logo{
+            width:425px;
+        }
+    }
+
+    .cards{
+        .button{
+            border-radius:5px;
+            text-align: center;
+            margin: 0 auto;
+            position: absolute;
+            right: -5px;
+            padding: 8px 37px !important;
+            top: 1px;
+            font-size: 17px;
+            text-transform: capitalize;
+        }
+        .rowgames{
+            .relativel{
+                background: #e9ecef;
+                min-width: 202px;
+                min-height: 102px;
+                .buttonprice{
+                    position: absolute;
+                    float: left !important;
+                    top: 13px;
+                    width: 61px;
+                     border-radius: 0;
+                    background: #6315b8;
+                    border: none;
+                    font-size: 17px;
+                    border-top-right-radius: 0.3rem;
+                    border-bottom-right-radius: 0.3rem;
+                    z-index: 3;
+
+                }
+                .card-img-top{
+                    width: 100%;
+                    height: 150px;
+                    border-top-left-radius: calc(0.25rem - 1px);
+                    border-top-right-radius: calc(0.25rem - 1px);
+                    margin-top: 0;
+                    position: relative;
+                    z-index: 1;
+                }
+            }
+            .card-body {
+                text-align: center!important;
+                .card-title {
+                    font-size: 17px;
+                    margin-bottom: 0px !important;
+                    width: 100%;
+                    white-space: nowrap;
+                
+                }
+            }
+        }
+    }
+
+    .row{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+        max-width: 1080px;
+        width: 100%;
+
+        .gap-half{
+            font-family: "Roboto Condensed", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+            font-weight: 300;
+            font-style: normal;
+            color: #222;
+            text-rendering: optimizeLegibility;
+            margin-bottom: 20px !important;
+
+        }
+
+        .button{
+            display: inline-block;
+            vertical-align: middle;
+            font-family: "Roboto Condensed", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+            font-size: 1.2em;
+            text-transform: uppercase;
+            text-align: center;         
+            padding-left: 6em!important;
+            padding-right: 6em!important;
+        }
+    }
+}
